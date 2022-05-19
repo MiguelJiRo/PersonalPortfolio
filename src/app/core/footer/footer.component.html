@@ -1,0 +1,24 @@
+<footer>
+    <div class="container animate fadeInUp">
+        <section class="ft-social">
+            <ul class="ft-social-list">
+                <li>
+                    <a href="https://github.com/MiguelJiRo" class="bi bi-github"></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/miguel-jiroz" class="bi bi-linkedin"></a>
+                </li>
+                <li>
+                    <a href="https://t.me/Hisstrel" class="bi bi-telegram"></a>
+                </li>
+                <li>
+                    <a href="mailto:{{email}}" class="bi bi-envelope envelope"></a>
+                </li>
+            </ul>
+        </section>
+        <section class="ft-legal">
+            <span class="text-footer" *ngIf="lenguageEN">Created by Miguel Jimémez Rodríguez</span>
+            <span class="text-footer" *ngIf="!lenguageEN">Creado por Miguel Jimémez Rodríguez</span>
+        </section>
+    </div>
+</footer>

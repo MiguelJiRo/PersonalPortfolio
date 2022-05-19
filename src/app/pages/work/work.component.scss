@@ -1,0 +1,124 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #F6F4E6;
+    padding: 0.5rem;
+    width: 100%;
+    border-bottom: 1px solid #777;
+}
+
+.card {
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    border-color: #F6F4E6;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #F6F4E6;
+}
+
+.card img {
+    width: 20%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: calc(0.25rem - 1px);
+
+    @media (max-width: 720px) {
+        width: 40%;
+    }
+
+    @media (max-width: 1024px) {
+        width: 50%;
+    }
+
+    @media (max-width: 1444px) {
+        width: 40%;
+    }
+}
+
+.card-text {
+    color: #f6f4e69a;
+}
+
+.btn {
+    margin: 5px;
+    background-color: transparent;
+    border-color: #F6F4E6;
+    color: #F6F4E6;
+    font-weight: bold;
+
+    &:hover {
+        color: #202020;
+        background-color: #FDDB3A;
+        border-color: transparent;
+    }
+}
+
+.btn-secondary {
+    color: #DB466E;
+
+    &:hover {
+        color: #202020;
+        background-color: #DB466E;
+        border-color: transparent;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    a {
+        display: none;
+    }
+
+    .card-body {
+        padding: 0.5em 1.2em;
+    }
+
+    .card-body .card-text {
+        margin: 0;
+    }
+
+    .card img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .card img {
+        width: 40%;
+    }
+}
+
+// Trigger
+.animate {
+    -webkit-animation-duration: 3.5s;
+    animation-duration: 3.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+// FADE IN
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}

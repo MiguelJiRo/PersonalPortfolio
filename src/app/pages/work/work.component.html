@@ -1,0 +1,66 @@
+<h1 *ngIf="lenguageEN">Work</h1>
+<h1 *ngIf="!lenguageEN">Trabajo</h1>
+<br>
+<div class="card animate fadeIn">
+    <img src="../../../assets/work/masterlemoncode.png" class="card-img-top" />
+    <div class="card-body">
+        <h5 class="card-title" *ngIf="lenguageEN">Master Front-End Lemoncode XIII Edition.</h5>
+        <h5 class="card-title" *ngIf="!lenguageEN">Master Front-End Lemoncode XIII Edicion.</h5>
+        <p class="card-text" *ngIf="lenguageEN">
+            Repository with the exercises and practices proposed in the Lemoncode Frontend XII master.
+        </p>
+        <p class="card-text" *ngIf="!lenguageEN">
+            Repositorio con los ejercicios y prácticas propuestas en el master de Frontend XII de Lemoncode.
+        </p>
+        <a href="https://github.com/MiguelJiRo/Master-Frontend-XII-Lemoncode" class="btn btn-primary bi bi-github">
+            Lemoncode</a>
+    </div>
+</div>
+<br>
+<br>
+<div class="card animate fadeIn">
+    <img src="../../../assets/work/portfolio.png" class="card-img-top" />
+    <div class="card-body">
+        <h5 class="card-title" *ngIf="lenguageEN">Personal portfolio.</h5>
+        <h5 class="card-title" *ngIf="!lenguageEN">Portfolio personal.</h5>
+        <p class="card-text" *ngIf="lenguageEN">
+            The github repository for this portfolio.
+        </p>
+        <p class="card-text" *ngIf="!lenguageEN">
+            Repositorio de github de este portfolio.
+        </p>
+        <a href="https://github.com/MiguelJiRo/Master-Frontend-XII-Lemoncode" class="btn btn-primary bi bi-github">
+            Portfolio</a>
+    </div>
+</div>
+<br>
+<br>
+<div class="card animate fadeIn">
+    <img src="../../../assets/work/university.png" class="card-img-top" />
+    <div class="card-body">
+        <h5 class="card-title" *ngIf="lenguageEN">Complutense University of Madrid.</h5>
+        <h5 class="card-title" *ngIf="!lenguageEN">Universidad Complutense de Madrid.</h5>
+        <p class="card-text" *ngIf="lenguageEN">
+            Some exercises and games made in my university stage.
+        </p>
+        <p class="card-text" *ngIf="!lenguageEN">
+            Algunos ejercicios y juegos hechos en mi etapa universitaria.
+        </p>
+        <a href="https://github.com/MEMOGAMES2019" class="btn btn-secondary bi bi-github" *ngIf="lenguageEN"> Final
+            degree
+            project</a>
+        <a href="https://github.com/MEMOGAMES2019" class="btn btn-secondary bi bi-github" *ngIf="!lenguageEN"> Trabajo
+            de
+            fin de grado</a>
+        <a href="https://github.com/MiguelJiRo/WarioLand2_dvi" class="btn btn-primary bi bi-github"> WarioLand 2</a>
+        <a href="https://github.com/MiguelJiRo/SuperMario" class="btn btn-primary bi bi-github"> Super Mario</a>
+        <a href="https://github.com/MiguelJiRo/Frogger" class="btn btn-primary bi bi-github"> Frogger</a>
+        <a href="https://github.com/MiguelJiRo/MemoryGame" class="btn btn-primary bi bi-github"> Memory Game</a>
+        <a href="https://github.com/MiguelJiRo?tab=repositories" class="btn btn-primary bi bi-github"
+            *ngIf="lenguageEN"> More projects</a>
+        <a href="https://github.com/MiguelJiRo?tab=repositories" class="btn btn-primary bi bi-github"
+            *ngIf="!lenguageEN"> Más proyectos</a>
+    </div>
+</div>
+<br>
+<br>

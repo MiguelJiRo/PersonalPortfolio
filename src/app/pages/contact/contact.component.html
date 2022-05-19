@@ -1,0 +1,7 @@
+<h1 *ngIf="lenguageEN">Contact</h1>
+<h1 *ngIf="!lenguageEN">Contacto</h1>
+<div class="contact-container animate fadeIn">
+    <h4 *ngIf="lenguageEN">Get In Touch <i class="bi bi-chat-left-heart"></i></h4>
+    <h4 *ngIf="!lenguageEN">Contactar <i class="bi bi-chat-left-heart"></i></h4>
+    <a href="mailto:{{email}}" class="bi bi-envelope"></a>
+</div>

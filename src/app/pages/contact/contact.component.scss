@@ -1,0 +1,35 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #F6F4E6;
+    padding: 0.5rem;
+    width: 100%;
+    border-bottom: 1px solid #777;
+}
+
+h4 {
+    color: #f6f4e69a;
+    font-size: 25px;
+}
+
+.contact-container {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bi-envelope {
+    color: #F6F4E6;
+    font-size: 100px;
+}
+
+.bi-envelope:hover {
+    color: #FDDB3A;
+}
+
+.bi-chat-left-heart {
+    color: #C63637;
+    font-size: 35px;
+}

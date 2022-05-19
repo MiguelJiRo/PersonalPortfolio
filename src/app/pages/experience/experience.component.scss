@@ -1,0 +1,94 @@
+.experience-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    font-family: Calistoga;
+    color: #f6f4e69a;
+    background-color: #202020;
+}
+
+.card-education {
+    height: 175px;
+}
+
+.master {
+    color: #202020;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.footer-master {
+    color: #202020;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #F6F4E6;
+    padding: 0.5rem;
+    width: 100%;
+    border-bottom: 1px solid #777;
+}
+
+.indra {
+    color: #202020;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+hr.solid {
+    border-top: 3px solid #202020;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.a-master {
+    color: #202020;
+}
+
+.a-ucm {
+    color: #f6f4e69a;
+}
+
+a:hover {
+    color: #FDDB3A;
+}
+
+// Trigger
+.animate {
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+// FADE IN
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}

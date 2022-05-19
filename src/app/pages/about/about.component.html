@@ -1,0 +1,42 @@
+<h1 *ngIf="lenguageEN">About</h1>
+<h1 *ngIf="!lenguageEN">Sobre mí</h1>
+<div class="about-container">
+    <div class="photo-container animatephoto fadeIn">
+        <img src="./assets/me.png" class="personalphoto">
+        <h3>Miguel Jimémez Rodríguez</h3>
+        <h4 *ngIf="lenguageEN">Computer Engineer</h4>
+        <h4 *ngIf="!lenguageEN">Ingeniero Informático</h4>
+    </div>
+    <div class="description-container">
+        <div class="animate fadeIn" *ngIf="lenguageEN">
+            <p>Hello! I'm <b>Miguel</b>, graduated in Computer Engineering and I'm from the south of Madrid.</p>
+            <p>I am passionate about technology and the internet world. I enjoy learning new things and playing with
+                them. I especially like those little things that can help us to make our daily life easier.</p>
+            <p>I'm currently working at <b>Indra</b> as a Junior Network Engineer and since a few months ago I'm also
+                working
+                on a new project as a <b>Frontend Developer</b>.</p>
+        </div>
+        <div class="animate fadeIn" *ngIf="!lenguageEN">
+            <p>¡Hola! Soy <b>Miguel</b>, graduado en Ingeniería Informática y soy del sur de la Comunidad de Madrid.</p>
+            <p>Soy un apasionado de la tecnología y el mundo de internet.
+                Disfruto aprendiendo cosas nuevas y trasteando con ellas. En especial, me gustan esas cositas que nos
+                puedan ayudar a hacer nuestro día a día más sencillo.</p>
+            <p>Actualmente estoy trabajando en <b>Indra</b> cómo Ingeniero Junior de Redes y desde hace unos meses estoy
+                además en un nuevo proyecto desempeñando funciones de <b>desarrollador Frontend</b>.
+            </p>
+        </div>
+    </div>
+</div>
+<h2 *ngIf="lenguageEN">Technologies I've been working with recently</h2>
+<h2 *ngIf="!lenguageEN">Tecnologías con las que he trabajado recientemente</h2>
+<div class="skills-container">
+    <span class="skill c-angular">Angular</span>
+    <span class="skill c-react">React</span>
+    <span class="skill c-typescript">Typescript</span>
+    <span class="skill c-css">CSS3</span>
+    <span class="skill c-sass">SASS</span>
+    <span class="skill c-git">Git</span>
+    <span class="skill c-jira">Jira</span>
+    <span class="skill c-docker">Docker</span>
+    <span class="skill c-vsc">VSCode</span>
+</div>

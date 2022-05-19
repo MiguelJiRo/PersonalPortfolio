@@ -1,0 +1,56 @@
+.mlogo {
+    width: 80px;
+    height: 80px;
+}
+
+$index: "1",
+"2",
+"3",
+"4";
+
+@each $i in $index {
+
+    .index_#{$i} {
+        &:before {
+            content: $i ".";
+            color: #FDDB3A;
+        }
+
+        color: #F6F4E6;
+    }
+
+    .index_#{$i}:hover {
+        color: #FDDB3A;
+    }
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav ul {
+    margin: 1em 0 .5em;
+    text-align: center;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav a {
+    padding: .5em 1.5em;
+}
+
+select {
+    width: 120px;
+    background-color: transparent;
+    color: #F6F4E6;
+    border-color: #F6F4E6;
+}
+
+select option {
+    color: #F6F4E6;
+    background-color: #171717;
+}

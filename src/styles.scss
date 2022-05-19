@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+.main-colour {
+    background-color: #171717;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: #171717;
+    background: #FDDB3A;
+}
+
+::selection {
+    color: #171717;
+    background: #FDDB3A;
+}
+
+.skill {
+    margin: 2px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.c-java {
+    background-color: #EFD81D;
+}
+
+.c-spring {
+    background-color: #5CB230;
+}
+
+.c-git {
+    background-color: #EB4D28;
+}
+
+.c-eclipse {
+    background-color: #7b5df1;
+}
+
+.c-intellij {
+    background-color: #A258BC;
+}
+
+.c-angular {
+    background-color: #D6002F;
+}
+
+.c-react {
+    background-color: #5ED3F3;
+}
+
+.c-typescript {
+    background-color: #2F74C0;
+}
+
+.c-css {
+    background-color: #0068BA;
+}
+
+.c-sass {
+    background-color: #CE6B9E;
+}
+
+.c-docker {
+    background-color: #119AD4;
+}
+
+.c-vsc {
+    background-color: #0076C6
+}
+
+.c-jira {
+    background-color: #197CF7;
+}
+
+.c-bootstrap {
+    background-color: #7952B3;
+}

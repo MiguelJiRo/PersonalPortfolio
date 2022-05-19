@@ -1,0 +1,124 @@
+<div class="experience-container">
+    <h1 *ngIf="lenguageEN">Experience</h1>
+    <h1 *ngIf="!lenguageEN">Experiencia</h1>
+    <div class="card indra animate fadeIn">
+        <div class="card-body">
+            <h2 class="card-title">Indra</h2>
+            <h5 class="card-title" *ngIf="lenguageEN">Project - strategic command and control system</h5>
+            <h5 class="card-title" *ngIf="!lenguageEN">Proyecto - sistema estratégico de mando y control</h5>
+            <p class="card-text" *ngIf="lenguageEN">
+                Front-End developer.
+            </p>
+            <p class="card-text" *ngIf="!lenguageEN">
+                Desarrollador Front-End.
+            </p>
+            <p class="card-text">
+                <span class="skill c-angular">Angular</span>
+                <span class="skill c-react">React</span>
+                <span class="skill c-typescript">Typescript</span>
+                <span class="skill c-css">CSS3</span>
+                <span class="skill c-sass">SASS</span>
+                <span class="skill c-bootstrap">Bootstrap</span>
+            </p>
+            <p class="card-text" *ngIf="lenguageEN">Jan 2022 - Present</p>
+            <p class="card-text" *ngIf="!lenguageEN">Enero 2022 - Actualidad</p>
+            <hr class="solid">
+            <h5 class="card-title" *ngIf="lenguageEN">Project - mission planner system</h5>
+            <h5 class="card-title" *ngIf="!lenguageEN">Proyecto - sistema de planificación de misiones</h5>
+            <p class="card-text" *ngIf="lenguageEN">
+                Back-End developer.
+            </p>
+            <p class="card-text" *ngIf="!lenguageEN">
+                Desarrollador Back-End.
+            </p>
+            <p class="card-text">
+                <span class="skill c-java">Java</span>
+                <span class="skill c-spring">Spring</span>
+            </p>
+            <p class="card-text" *ngIf="lenguageEN">Feb 2021 - Present</p>
+            <p class="card-text" *ngIf="!lenguageEN">Feb 2021 - Actualidad</p>
+            <hr class="solid">
+            <h5 class="card-title">Tools</h5>
+            <p class="card-text">
+                <span class="skill c-git">Git</span>
+                <span class="skill c-jira">Jira</span>
+                <span class="skill c-docker">Docker</span>
+                <span class="skill c-vsc">VSCode</span>
+                <span class="skill c-intellij">Intellij</span>
+                <span class="skill c-eclipse">Eclipse</span>
+            </p>
+        </div>
+    </div>
+    <h1 *ngIf="lenguageEN">Education</h1>
+    <h1 *ngIf="!lenguageEN">Educación</h1>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card mb-3 master animate fadeIn card-education">
+                <div class="row g-0">
+                    <div class="card-body">
+                        <a class="a-master" href="https://lemoncode.net/master-frontend">Master Lemoncode</a>
+                        <p class="card-text">
+                            Master Front-End Lemoncode XIII Edicion.
+                        </p>
+                        <p class="card-text">
+                            <small class="footer-master" *ngIf="lenguageEN">April 2022 - Present</small>
+                            <small class="footer-master" *ngIf="!lenguageEN">Abril 2022 - Actualidad</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mb-3 animate fadeIn card-education">
+                <div class="row g-0">
+                    <div class="card-body">
+                        <a class="a-ucm" href="https://www.ucm.es/">Universidad Complutense de
+                            Madrid</a>
+                        <p class="card-text">
+                            Ingeniería informática.
+                            <a href="https://informatica.ucm.es/data/cont/docs/titulaciones/1909.pdf"
+                                class="bi bi-filetype-pdf a-ucm"></a>
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted">2014 - 2020</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mb-3 animate fadeIn card-education">
+                <div class="row g-0">
+                    <div class="card-body">
+                        <a class="a-ucm" href="https://www.ucm.es/">Universidad Complutense de
+                            Madrid</a>
+                        <p class="card-text">
+                            Grado en Ingeniería de Computadores.
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted">2012 - 2014</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mb-3 animate fadeIn card-education">
+                <div class="row g-0">
+                    <div class="card-body">
+                        <h5 class="card-title">Bachillerato</h5>
+                        <p class="card-text">
+                            Bachillerato ciencias y tecnológico.
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted">2009 - 2011</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
