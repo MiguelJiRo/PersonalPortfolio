@@ -7,7 +7,7 @@ import { NopagefoundComponent } from './pages/nopagefound/nopagefound.component'
 
 
 const routes: Routes = [
-    { path: '', redirectTo: '/', pathMatch: 'full' }
+    { path: '', redirectTo: 'PersonalPortfolio/', pathMatch: 'full' }
 ];
 
 

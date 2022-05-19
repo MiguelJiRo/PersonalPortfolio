@@ -8,13 +8,13 @@ import { ContactComponent } from './contact/contact.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 
 const childRoutes: Routes = [
-  { path: '', component: HomeComponent, data: { titulo: 'Intro' } },
-  { path: 'about', component: AboutComponent, data: { titulo: 'About' } },
-  { path: 'experience', component: ExperienceComponent, data: { titulo: 'Experience' } },
-  { path: 'work', component: WorkComponent, data: { titulo: 'Work' } },
-  { path: 'contact', component: ContactComponent, data: { titulo: 'Contact' } },
-  { path: '404', component: NopagefoundComponent },
-  { path: '**', redirectTo: '/404' }
+  { path: 'PersonalPortfolio/', component: HomeComponent, data: { titulo: 'Intro' } },
+  { path: 'PersonalPortfolio/about', component: AboutComponent, data: { titulo: 'About' } },
+  { path: 'PersonalPortfolio/experience', component: ExperienceComponent, data: { titulo: 'Experience' } },
+  { path: 'PersonalPortfolio/work', component: WorkComponent, data: { titulo: 'Work' } },
+  { path: 'PersonalPortfolio/contact', component: ContactComponent, data: { titulo: 'Contact' } },
+  { path: 'PersonalPortfolio/404', component: NopagefoundComponent },
+  { path: '**', redirectTo: 'PersonalPortfolio/404' }
 ]
 
 @NgModule({
