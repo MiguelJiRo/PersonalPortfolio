@@ -8,7 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 
 const childRoutes: Routes = [
-  { path: './', component: HomeComponent, data: { titulo: 'Intro' } },
+  { path: '/', component: HomeComponent, data: { titulo: 'Intro' } },
   { path: '/about', component: AboutComponent, data: { titulo: 'About' } },
   { path: '/experience', component: ExperienceComponent, data: { titulo: 'Experience' } },
   { path: '/work', component: WorkComponent, data: { titulo: 'Work' } },
