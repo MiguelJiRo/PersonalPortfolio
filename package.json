@@ -9,7 +9,7 @@
     "test": "ng test",
     "prodgh": "ng build --prod --base-href='./'",
     "ghpages": "npx angular-cli-ghpages dir=dist",
-    "prodpages": "ng build --prod --base-href=/PersonalPortfolio/ && npx angular-cli-ghpages dir=dist"
+    "prodpages": "ng build --prod --base-href='./' && npx angular-cli-ghpages dir=dist"
   },
   "private": true,
   "dependencies": {
