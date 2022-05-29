@@ -1,6 +1,12 @@
 # Personal Portfolio
 
+<p align="center">
+<img width="75" height="75" src="./dist/assets/mlogov2.png">
+</p>
+
+<p align="center">
 Bienvenido a mi portfolio personal ⭐
+</p>
 
 [Personal Portfolio](https://migueljiro.github.io/PersonalPortfolio/)
 
