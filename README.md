@@ -1,7 +1,7 @@
 # Personal Portfolio
 
 <div align="center">
-<img src="../PersonalPortfolio/dist/assets/mlogov2.png" width="75px">
+<img src="/MiguelJiRo/PersonalPortfolio/blob/main/src/assets/mlogov2.png" width="75px">
 </div>
 
 <p align="center">
