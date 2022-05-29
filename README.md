@@ -1,8 +1,10 @@
 # Personal Portfolio
 
-<div align="center">
-<img src="/MiguelJiRo/PersonalPortfolio/blob/main/src/assets/mlogov2.png" width="75px">
-</div>
+<p align="center">
+    <a href="https://migueljiro.github.io/PersonalPortfolio/" target="blank">
+        <img src="./src/assets/mlogov2.png" width="75px"/>
+    </a>
+</p
 
 <p align="center">
 Bienvenido a mi portfolio personal ⭐
