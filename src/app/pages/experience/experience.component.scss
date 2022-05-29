@@ -1,14 +1,31 @@
+@import "../../shared/variables";
+
 .experience-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+
+    @media (max-width: 500px) {
+        width: 90vw;
+    }
 }
 
 .card {
     font-family: Calistoga;
-    color: #f6f4e69a;
+    color: $deltaGreyColor;
     background-color: #202020;
+}
+
+.skills-container {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+    @media (max-width: 500px) {
+        flex-wrap: wrap;
+    }
 }
 
 .card-education {
@@ -27,10 +44,10 @@
 h1 {
     display: flex;
     justify-content: center;
-    color: #F6F4E6;
+    color: $betaWhiteColor;
     padding: 0.5rem;
     width: 100%;
-    border-bottom: 1px solid #777;
+    border-bottom: 1px solid $epsilonGreyColorSecondary;
 }
 
 .indra {
@@ -52,11 +69,11 @@ a {
 }
 
 .a-ucm {
-    color: #f6f4e69a;
+    color: $deltaGreyColor;
 }
 
 a:hover {
-    color: #FDDB3A;
+    color: $gammaYellowColor;
 }
 
 // Trigger

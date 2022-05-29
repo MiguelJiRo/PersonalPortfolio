@@ -1,17 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./app/shared/variables";
+
 .main-colour {
-    background-color: #171717;
+    background-color: $alphaBlackColor;
 }
 
 ::-moz-selection {
     /* Code for Firefox */
-    color: #171717;
-    background: #FDDB3A;
+    color: $alphaBlackColor;
+    background: $gammaYellowColor;
 }
 
 ::selection {
-    color: #171717;
-    background: #FDDB3A;
+    color: $alphaBlackColor;
+    background: $gammaYellowColor;
 }
 
 .skill {

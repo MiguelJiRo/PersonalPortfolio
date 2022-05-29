@@ -52,14 +52,25 @@
         <a href="https://github.com/MEMOGAMES2019" class="btn btn-secondary bi bi-github" *ngIf="!lenguageEN"> Trabajo
             de
             fin de grado</a>
-        <a href="https://github.com/MiguelJiRo/WarioLand2_dvi" class="btn btn-primary bi bi-github"> WarioLand 2</a>
-        <a href="https://github.com/MiguelJiRo/SuperMario" class="btn btn-primary bi bi-github"> Super Mario</a>
-        <a href="https://github.com/MiguelJiRo/Frogger" class="btn btn-primary bi bi-github"> Frogger</a>
-        <a href="https://github.com/MiguelJiRo/MemoryGame" class="btn btn-primary bi bi-github"> Memory Game</a>
-        <a href="https://github.com/MiguelJiRo?tab=repositories" class="btn btn-primary bi bi-github"
-            *ngIf="lenguageEN"> More projects</a>
-        <a href="https://github.com/MiguelJiRo?tab=repositories" class="btn btn-primary bi bi-github"
-            *ngIf="!lenguageEN"> Más proyectos</a>
+
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+            aria-controls="collapseExample" *ngIf="lenguageEN">
+            More projects
+        </a>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+            aria-controls="collapseExample" *ngIf="!lenguageEN">
+            Más proyectos
+        </a>
+        <div class="collapse" id="collapseExample">
+            <a href="https://github.com/MiguelJiRo/WarioLand2_dvi" class="btn btn-primary bi bi-github"> WarioLand 2</a>
+            <a href="https://github.com/MiguelJiRo/SuperMario" class="btn btn-primary bi bi-github"> Super Mario</a>
+            <a href="https://github.com/MiguelJiRo/Frogger" class="btn btn-primary bi bi-github"> Frogger</a>
+            <a href="https://github.com/MiguelJiRo/MemoryGame" class="btn btn-primary bi bi-github"> Memory Game</a>
+            <a href="https://github.com/MiguelJiRo?tab=repositories" class="btn btn-primary bi bi-github"
+                *ngIf="lenguageEN"> More projects in GitHub</a>
+            <a href="https://github.com/MiguelJiRo?tab=repositories" class="btn btn-primary bi bi-github"
+                *ngIf="!lenguageEN"> Más proyectos en Github</a>
+        </div>
     </div>
 </div>
 <br>

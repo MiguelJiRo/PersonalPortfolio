@@ -1,26 +1,30 @@
+@import "../../shared/variables";
+
 .mlogo {
     width: 80px;
     height: 80px;
 }
 
 $index: "1",
-"2",
-"3",
-"4";
+    "2",
+    "3",
+    "4";
 
 @each $i in $index {
 
     .index_#{$i} {
         &:before {
             content: $i ".";
-            color: #FDDB3A;
+            color: $gammaYellowColor;
         }
-
-        color: #F6F4E6;
     }
+}
 
-    .index_#{$i}:hover {
-        color: #FDDB3A;
+.navbar-dark,
+.navbar-nav,
+.nav-link {
+    :hover {
+        color: $gammaYellowColor;
     }
 }
 
@@ -28,6 +32,10 @@ $index: "1",
     padding: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+.navbar-toggler {
+    border-color: $betaWhiteColor;
 }
 
 .main-nav ul {
@@ -46,11 +54,11 @@ $index: "1",
 select {
     width: 120px;
     background-color: transparent;
-    color: #F6F4E6;
-    border-color: #F6F4E6;
+    color: $betaWhiteColor;
+    border-color: $betaWhiteColor;
 }
 
 select option {
-    color: #F6F4E6;
-    background-color: #171717;
+    color: $betaWhiteColor;
+    background-color: $alphaBlackColor;
 }

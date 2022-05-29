@@ -1,3 +1,5 @@
+@import "../../shared/variables";
+
 .home-container {
     box-sizing: border-box;
     height: 70vh;
@@ -6,39 +8,56 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
+
+    @media (max-width: 500px) {
+        margin-left: 0vh;
+        height: 45vh;
+    }
 }
 
 h2 {
-    color: #f6f4e69a;
+    color: $deltaGreyColor;
     font-size: 50px;
     font-family: Calistoga;
     font-weight: 600;
+
+    @media (max-width: 500px) {
+        font-size: 35px;
+    }
 }
 
 h2::after {
     content: "Miguel";
-    color: #FDDB3A;
+    color: $gammaYellowColor;
 }
 
 h3 {
-    color: #F6F4E6;
+    color: $betaWhiteColor;
 }
 
 p {
-    color: #f6f4e69a;
+    color: $deltaGreyColor;
     width: 60%;
     font-size: 20px;
     font-family: Calistoga;
+
+    @media (max-width: 500px) {
+        font-size: 15px;
+    }
 }
 
 a {
     text-decoration: none;
     font-size: 25px;
-    color: #F6F4E6;
+    color: $betaWhiteColor;
+
+    @media (max-width: 500px) {
+        font-size: 18px;
+    }
 }
 
 a:hover {
-    color: #FDDB3A;
+    color: $gammaYellowColor;
 }
 
 // Trigger

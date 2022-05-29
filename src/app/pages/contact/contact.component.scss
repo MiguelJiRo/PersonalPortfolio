@@ -1,14 +1,16 @@
+@import "../../shared/variables";
+
 h1 {
     display: flex;
     justify-content: center;
-    color: #F6F4E6;
+    color: $betaWhiteColor;
     padding: 0.5rem;
     width: 100%;
-    border-bottom: 1px solid #777;
+    border-bottom: 1px solid $epsilonGreyColorSecondary;
 }
 
 h4 {
-    color: #f6f4e69a;
+    color: $deltaGreyColor;
     font-size: 25px;
 }
 
@@ -18,18 +20,56 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 500px) {
+        height: 50vh;
+    }
 }
 
 .bi-envelope {
-    color: #F6F4E6;
+    color: $betaWhiteColor;
     font-size: 100px;
 }
 
 .bi-envelope:hover {
-    color: #FDDB3A;
+    color: $gammaYellowColor;
 }
 
 .bi-chat-left-heart {
-    color: #C63637;
+    color: $dsetaRedColor;
     font-size: 35px;
+}
+
+// Trigger
+.animate {
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 3.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+// FADE IN
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
 }
