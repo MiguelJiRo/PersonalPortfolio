@@ -1,8 +1,8 @@
 # Personal Portfolio
 
-<p align="center">
-<img width="75" height="75" src="./dist/assets/mlogov2.png">
-</p>
+<div align="center">
+<img src="../PersonalPortfolio/dist/assets/mlogov2.png" width="75px">
+</div>
 
 <p align="center">
 Bienvenido a mi portfolio personal ⭐
